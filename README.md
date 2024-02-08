@@ -59,13 +59,13 @@ O público-alvo principal são entidades jurídicas atuantes no setor da saúde,
 
 ##  <a id="desafio14"></a>1.4) Abordagem, sistema, tarefa e técnica.
 
-- *Usam-se modelos de ML ou econométricos?* Optamos por modelos de ML, focalizando a melhor previsão fora da amostra da variável de resultado.
+- **Usam-se modelos de ML ou econométricos?** Optamos por modelos de ML, focalizando a melhor previsão fora da amostra da variável de resultado.
 
-- *Que tipo de treinamento será necessário para o modelo?* Será necessário um sistema de ML supervisionado, uma vez que cada instância ou registro possui um label de *default*.
+- **Que tipo de treinamento será necessário para o modelo?** Será necessário um sistema de ML supervisionado, uma vez que cada instância ou registro possui um label de *default*.
 
-- *Qual será a tarefa desempenhada pelo modelo?* A tarefa desempenhada pelo modelo é uma classificação, dado que o resultado padrão é binário ("default" ou "não default").
+- **Qual será a tarefa desempenhada pelo modelo?** A tarefa desempenhada pelo modelo é uma classificação, dado que o resultado padrão é binário ("default" ou "não default").
 
-- *Deve-se utilizar técnicas de aprendizado em lote ou em tempo real?* Recomenda-se o uso de técnicas de aprendizado em lote, uma vez que a classificação dos clientes não muda rapidamente.
+- **Deve-se utilizar técnicas de aprendizado em lote ou em tempo real?** Recomenda-se o uso de técnicas de aprendizado em lote, uma vez que a classificação dos clientes não muda rapidamente.
 
 ##  <a id="desafio14"></a>1.5) Fontes para aprimorar o ML 
 
@@ -101,6 +101,6 @@ Aqui se aplicam os cinco Cs do crédito, aplicados principalmente a mutuários c
 
 ##  <a id="desafio18"></a>1.8) Benefícios e riscos de ML 
 
-- Benefícios: avaliação mais rápida e econômica para a empresa, previsão aprimorada da inadimplência, decisões mais eficientes, e aumento da competitividade.
+- **Benefícios**: avaliação mais rápida e econômica para a empresa, previsão aprimorada da inadimplência, decisões mais eficientes, e aumento da competitividade.
 
-- Riscos: exclusão injusta de clientes qualificados por discriminação, falta de interpretabilidade em modelos de ML, exclusão devido a decisões computacionais inexplicáveis, preocupações com segurança e tratamento de dados.
+- **Riscos**: exclusão injusta de clientes qualificados por discriminação, falta de interpretabilidade em modelos de ML, exclusão devido a decisões computacionais inexplicáveis, preocupações com segurança e tratamento de dados.
