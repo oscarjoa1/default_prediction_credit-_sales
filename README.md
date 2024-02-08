@@ -18,6 +18,9 @@ Oscar J. O. Ayala
    1.6 [*Limitações e Desafios de Dados*](#desafio16)<br>
    1.7 [*Aspectos Éticos e Regulatórios*](#desafio17)<br>
    1.8 [*Benefícios e riscos de ML*](#desafio18)<br>
+3. [**Dados e Variáveis.**](#dados) <br>
+4. [**Explore o Jupyter Notebook para realizar uma análise exploratória.**](#exploratoria) <br>
+5. [**Explore o Jupyter Notebook  com o pipeline de estruturação do modelo probabilístico de inferência de default.**](#modelo) <br>
 
 # <a id="desafio"></a>1) Definição e quadro geral do desafio
 [*Back to top*](#top)
@@ -104,3 +107,49 @@ Aqui se aplicam os cinco Cs do crédito, aplicados principalmente a mutuários c
 - **Benefícios**: avaliação mais rápida e econômica para a empresa, previsão aprimorada da inadimplência, decisões mais eficientes, e aumento da competitividade.
 
 - **Riscos**: exclusão injusta de clientes qualificados por discriminação, falta de interpretabilidade em modelos de ML, exclusão devido a decisões computacionais inexplicáveis, preocupações com segurança e tratamento de dados.
+
+# <a id="dados"></a> 2) Dados e Variáveis
+
+Os dados são propriedade do Kognita Lab e possuem as seguintes características:
+- Caminho: o dataset disponibilizado pela X-Health encontra-se em
+  `./_data_set/dados_kognitalab.csv`
+- Estrutura do .csv: para ler o arquivo, use sep = '\t' e encoding = 'utf-8'.
+- O dataset possui tanto variáveis internas (decorrentes do comportamento histórico do cliente B2B junto à X-Health), quanto variáveis
+externas consultadas em bureaus de crédito, como o Serasa.
+- Cada linha do dataset representa um evento de compra de um conjunto de produtos, e tanto as variáveis internas quanto externas
+- representam uma fotografia do cliente naquele instante.
+- Valores faltantes estão indicados no dataset como *missing*.
+- 
+Dicionário de dados:
+
+| nome_coluna | desc |
+| :---: | :---: |
+| default_3months | Quantidade de default nos últimos 3 meses |
+| ioi_Xmonths | Intervalo médio entre pedidos (em dias) nos últimos X meses |
+| valor_por_vencer | Total em pagamentos a vencer do cliente B2B, em Reais |
+| valor_vencido | Total em pagamentos vencidos do cliente B2B, em Reais |
+| valor_quitado | Total (em Reais) pago no histórico de compras do cliente B2B |
+| quant_protestos | Quantidade de protestos de títulos de pagamento apresentados no Serasa |
+| valor_protestos | Valor total (em Reais) dos protestos de títulos de pagamento apresentados no Serasa |
+| quant_acao_judicial | Quantidade de açôes judiciais apresentadas pelo Serasa |
+| acao_judicial_valor | Valor total das açōes judiciais (Serasa) |
+| participacao_falencia_valor | Valor total (em Reais) de falências apresentadas pelo Serasa |
+| dividas_vencidas_valor | Valor total de dividas vencidas (Serasa) |
+| dividas_vencidas_qtd | Quantidade total de dividas vencidas (Serasa) |
+| falencia_concordata_qtd | Quantidade de concordatas (Serasa) |
+| tipo_sociedade | Tipo de sociedade do cliente B2B |
+| opcao_tributaria | Opçāo tributária do cliente B2B |
+| atividade_principal | Atividade principal do cliente B2B |
+| forma_pagamento | Forma de pagamento combinada para o pedido |
+| valor_total_pedido | Valor total (em Reais) do pedido em questão |
+| month | Mès do pedido |
+| year | Ano do pedido |
+| default | Status do pedido: default = 0 (pago em dia), default = 1 (pagamento näo-realizado, calote concretizado) |
+
+# <a id="exploratoria"></a> 3) Explore o Jupyter Notebook para realizar uma análise exploratória
+`./_result/analise_exploratoria.ipynd`
+
+# <a id="modelo"></a> 4) Explore o Jupyter Notebook  com o pipeline de estruturação do modelo probabilístico de inferência de default
+`./_result/pipeline_modelo_inferencia_default.ipynd`
+
+## Muito Obrigado por estar comigo. 
