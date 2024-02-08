@@ -112,7 +112,7 @@ Aqui se aplicam os cinco Cs do crédito, aplicados principalmente a mutuários c
 
 Os dados são propriedade do Kognita Lab e possuem as seguintes características:
 - Caminho: o dataset disponibilizado pela X-Health encontra-se em
-  `./_data_set/dados_kognitalab.csv`
+  `./_data_set/dataset_2021-5-26-10-14.csv`
 - Estrutura do .csv: para ler o arquivo, use sep = '\t' e encoding = 'utf-8'.
 - O dataset possui tanto variáveis internas (decorrentes do comportamento histórico do cliente B2B junto à X-Health), quanto variáveis
 externas consultadas em bureaus de crédito, como o Serasa.
