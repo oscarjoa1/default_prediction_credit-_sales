@@ -152,4 +152,5 @@ Dicionário de dados:
 # <a id="modelo"></a> 4) Explore o Jupyter Notebook  com o pipeline de estruturação do modelo probabilístico de inferência de default
 `./_result/pipeline_modelo_inferencia_default.ipynd`
 
-## Muito Obrigado por estar comigo. 
+
+> Muito obrigado por estar comigo. 
