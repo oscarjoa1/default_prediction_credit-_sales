@@ -18,9 +18,9 @@ Oscar J. O. Ayala
    1.6 [*Limitações e Desafios de Dados*](#desafio16)<br>
    1.7 [*Aspectos Éticos e Regulatórios*](#desafio17)<br>
    1.8 [*Benefícios e riscos de ML*](#desafio18)<br>
-3. [**Dados e Variáveis.**](#dados) <br>
-4. [**Explore o Jupyter Notebook para realizar uma análise exploratória.**](#exploratoria) <br>
-5. [**Explore o Jupyter Notebook  com o pipeline de estruturação do modelo probabilístico de inferência de default.**](#modelo) <br>
+2. [**Dados e Variáveis.**](#dados) <br>
+3. [**Explore o Jupyter Notebook para realizar uma análise exploratória.**](#exploratoria) <br>
+4. [**Explore o Jupyter Notebook  com o pipeline de estruturação do modelo probabilístico de inferência de default.**](#modelo) <br>
 
 # <a id="desafio"></a>1) Definição e quadro geral do desafio
 [*Back to top*](#top)
@@ -119,7 +119,7 @@ externas consultadas em bureaus de crédito, como o Serasa.
 - Cada linha do dataset representa um evento de compra de um conjunto de produtos, e tanto as variáveis internas quanto externas
 - representam uma fotografia do cliente naquele instante.
 - Valores faltantes estão indicados no dataset como *missing*.
-- 
+  
 Dicionário de dados:
 
 | nome_coluna | desc |
