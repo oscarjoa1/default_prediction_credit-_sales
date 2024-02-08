@@ -21,6 +21,8 @@ Oscar J. O. Ayala
 2. [**Dados e Variáveis.**](#dados) <br>
 3. [**Explore o Jupyter Notebook para realizar uma análise exploratória.**](#exploratoria) <br>
 4. [**Explore o Jupyter Notebook  com o pipeline de estruturação do modelo probabilístico de inferência de default.**](#modelo) <br>
+5. [**Explore o Jupyter Notebook  com função de predição.**](#predict) <br>
+6. [**Recurso de modelos promissorios e modelo final**](#recurs) <br>
 
 # <a id="desafio"></a>1) Definição e quadro geral do desafio
 [*Back to top*](#top)
@@ -151,6 +153,13 @@ Dicionário de dados:
 
 # <a id="modelo"></a> 4) Explore o Jupyter Notebook  com o pipeline de estruturação do modelo probabilístico de inferência de default
 `./_result/pipeline_modelo_inferencia_default.ipynd`
+
+# <a id="predict"></a> 5) Explore o Jupyter Notebook  com função de predição
+`./_result/funcao_previsao.ipynd`
+
+# <a id="recurs"></a> 6) Recurso de modelos promissorios e modelo final
+`./_data_set`
+
 
 
 > ##  Muito obrigado por estar comigo. 
