@@ -158,6 +158,7 @@ Dicionário de dados:
 `./_result/funcao_previsao.ipynd`
 
 # <a id="recurs"></a> 6) Recurso de modelos promissorios e modelo final
+Caso quera carregar direitamente os modelos promissorios otimizados e o modelo final, estão em:
 `./_data_set`
 
 
