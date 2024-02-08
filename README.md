@@ -153,4 +153,4 @@ Dicionário de dados:
 `./_result/pipeline_modelo_inferencia_default.ipynd`
 
 
-# > Muito obrigado por estar comigo. 
+# - Muito obrigado por estar comigo. 
