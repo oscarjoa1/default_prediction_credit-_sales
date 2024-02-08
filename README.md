@@ -1,4 +1,4 @@
-# Identificar clientes propensos a não efetuar pagamentos, com o objetivo de minimizar o número de inadimplências.
+# Redução do número de inadimplências (default) nas vendas a crédito da empresa X-Health.
 
 ## Autor
 Oscar J. O. Ayala
