@@ -148,7 +148,7 @@ Dicionário de dados:
 | year | Ano do pedido |
 | default | Status do pedido: default = 0 (pago em dia), default = 1 (pagamento näo-realizado, calote concretizado) |
 
-# <a id="exploratoria"></a> 3) Explore o Jupyter Notebook para realizar uma análise exploratória
+# <a id="exploratoria"></a> 3) Explore o Jupyter Notebook com a análise exploratória
 `./_result/analise_exploratoria.ipynd`
 
 # <a id="modelo"></a> 4) Explore o Jupyter Notebook  com o pipeline de estruturação do modelo probabilístico de inferência de default
