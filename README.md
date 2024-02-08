@@ -70,7 +70,7 @@ O público-alvo principal são entidades jurídicas atuantes no setor da saúde,
 
 - **Deve-se utilizar técnicas de aprendizado em lote ou em tempo real?** Recomenda-se o uso de técnicas de aprendizado em lote, uma vez que a classificação dos clientes não muda rapidamente.
 
-##  <a id="desafio14"></a>1.5) Fontes para aprimorar o ML 
+##  <a id="desafio15"></a>1.5) Fontes para aprimorar o ML 
 
 Aqui se aplicam os cinco Cs do crédito, aplicados principalmente a mutuários comerciais, têm atributos comuns à classificação de crédito pessoal. O aprendizado de máquina é essencial para aprimorar a avaliação de risco de crédito. Destaco aspectos-chave:
 
@@ -84,7 +84,7 @@ Aqui se aplicam os cinco Cs do crédito, aplicados principalmente a mutuários c
 
 - **Condições:** Elementos macroeconômicos e fatores externos que influenciam o desempenho do empréstimo, como taxa de crescimento, desemprego, inflação, regulamentações e fatores setoriais e geográficos.
 
-##  <a id="desafio14"></a>1.6) Limitações e Desafios de Dados: 
+##  <a id="desafio16"></a>1.6) Limitações e Desafios de Dados: 
 
 - Caso ocorrer a presença de uma classe de mutuários historicamente negados crédito por motivos não comerciais (como gênero, raça, religião, etnia, residência em determinadas áreas, nacionalidade, etc.) pode resultar em discriminação contra clientes desses grupos, causando viés no modelo. Espera-se que se tenha feito a exclusão dessas variáveis do conjunto de dados.
 
