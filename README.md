@@ -10,7 +10,7 @@ Oscar J. O. Ayala
     1.2       [*Premissas do processo de venda*](#desafio12)<br>
       - 1.2.1 [*Perfil do cliente*](#desagio121)<br>
       - 1.2.2 [*Venda crédito  à vista: perfil do cliente, processo, prazo, inadimplência e impactos*](#desafio122)<br>
-      - 1.2.3 [*Venda crédito  à vista: perfil do cliente, processo, prazo, inadimplência e impactos*](#desafio123)<br>    
+      - 1.2.3 [*Venda crédito  parcelada: perfil do cliente, processo, prazo, inadimplência e impactos*](#desafio123)<br>    
       
    1.3 [*Classificação de crédito*](#desafio13)<br>
    1.4 [*Abordagem, sistema, tarefa e técnica*](#desafio14)<br>
